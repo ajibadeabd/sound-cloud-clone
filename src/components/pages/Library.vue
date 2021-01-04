@@ -105,5 +105,6 @@ li{
 }
 li>.link{
     text-decoration: none;
+    font-size: 10px;
 }
 </style>
