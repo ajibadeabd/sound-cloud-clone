@@ -40,12 +40,17 @@ hear is what is trendin in sound clound comunity
 </div>
 <div class="image__container">
 
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<!-- <Image />
 <Image />
 <Image />
 <Image />
-<Image />
-<Image />
-<Image />
+<Image /> -->
 </div>
 <li class="explore"><a href="/">Explore trending play list
 </a></li>
@@ -58,6 +63,8 @@ hear is what is trendin in sound clound comunity
 
 </div>
 </div>
+
+
 </div>
 
 </template>
@@ -125,34 +132,27 @@ width:300px;
   width:200px; 
 
 }
-.button{
+.button ,.explore{
   padding:6px;
   background-color: red;
-  margin-right:20%;
-  margin-left:20%;
+ 
   margin-bottom:7px;
   color:#fff;
   border-radius: 6px;
   text-align: center;
+  margin: auto;
+  width:140px;
 border: 2px solid white ;
 }
 .explore{
-  margin:16%;
-padding:10px;
-border-radius: 4px;
-color:white;
-  color:#fff;
-  text-align:center;
-  margin-top:18px;
-  background-color: red;
-
-
-
+  width:169px;
+}
+.explore>a,.button>a{
+  color:white;
 }
 .image__container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   z-index: 1;
   margin:0px 5px;
 
@@ -230,7 +230,7 @@ justify-content:"space-between";
 .header__body{
 background-image:url('https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg');
 background-size:cover;
-background-position:top bottom;
+background-position:100%;
 width:100% ;
 font-size:20px;
 min-height: 500px;

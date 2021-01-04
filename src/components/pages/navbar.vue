@@ -18,7 +18,7 @@ HOME
 <a href="/">STREAM</a>
 </div>
 <div class="nav__actions">
-<a href="/you/library">LIBRARY</a>
+<a href="/you/library/overview">LIBRARY</a>
 
 
 </div>

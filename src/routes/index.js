@@ -9,6 +9,7 @@ import Following from '../components/you/following'
 import Likes from '../components/you/likes'
 import History from '../components/you/history'
 import Station from '../components/you/station'
+import Overview from '../components/you/overview'
 import Playlist from '../components/you/playlist'
 const routes=[
     {path:"/",name:"Home",component:Home},
@@ -16,6 +17,7 @@ const routes=[
     { path:"/you/library",name:"Library", component: Library,
       children: [
         {path: 'likes',component: Likes},
+        {path: 'overview',component: Overview},
         {path: 'album',component: Album},
         {path: 'following',component: Following},
         {path: 'history',component: History},

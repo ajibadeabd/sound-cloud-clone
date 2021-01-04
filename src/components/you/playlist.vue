@@ -1,6 +1,12 @@
 <template>
     <div class="container">
-    play
+
+<h1 class="likes">
+    Your have no playlist yet
+</h1>
+
+
+
     </div>
 </template>
 
@@ -19,16 +25,13 @@ export default {
 }
 </script>
 
-
-
-
-
-
-
-
-
-
-
 <style scoped>
+.container{
+    border:0px solid green;
+}
+.likes{
+    text-align: center;
+    margin-top: 30px;
 
+}
 </style>

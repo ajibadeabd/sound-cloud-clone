@@ -3,8 +3,13 @@
 <Navbar/>
 <div class="space"></div>
 
+
+<div class="body">
+
+
 <router-view/>
 <div class="space_control"></div>
+</div>
 
 <Control/>
 </div>
@@ -23,6 +28,11 @@ export default {
 </script>
 
 <style scope>
+.body{
+  width:96%;
+  margin:auto;
+}
+
 *{
   padding:0px;
   margin:0px;
@@ -31,6 +41,6 @@ export default {
   height: 49px;
 }
 .space_control{
-  height: 60px;
+  height: 80px;
 }
 </style>

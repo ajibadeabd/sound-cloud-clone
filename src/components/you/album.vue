@@ -1,6 +1,12 @@
 <template>
     <div class="container">
-    Album
+
+<h1 class="likes">
+    Your haven't like any Albums
+</h1>
+
+
+
     </div>
 </template>
 
@@ -13,22 +19,19 @@
 export default {
     data(){
         return{
-
+            
         }
     }
 }
 </script>
 
-
-
-
-
-
-
-
-
-
-
 <style scoped>
+.container{
+    border:0px solid green;
+}
+.likes{
+    text-align: center;
+    margin-top: 30px;
 
+}
 </style>
