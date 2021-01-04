@@ -1,0 +1,160 @@
+.image_con{
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    text-align:justify; 
+    width:200px; 
+  
+  }
+  .button{
+    width:140px;
+    padding:6px;
+    background-color: red;
+    margin:auto;
+    color:#fff;
+    border-radius: 6px;
+    text-align: center;
+  border: 2px solid white ;
+  }
+  .explore{
+    width:220px;
+    color:#fff;
+  
+  
+  }
+  .image__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 1;
+    margin:0px 5px;
+  
+  }
+  /*
+  .card__image{
+    height:200px;
+    width:30%;
+    flex:1;
+  }*/
+  .login,.signup,.other{
+    margin:0px 20px;
+    margin-top:20px;
+    padding:5px 0px 0px 11px;
+  border: 2px solid white ;
+    color:white;
+    width:50px;
+    height:30px;
+    border-radius:5px;
+  }
+  ul li a{
+    color:white;
+  }
+  li,a{
+    list-style:none;
+    color:'#fff';
+    text-decoration: none;
+  }
+  .minititle{
+  text-align:center;
+  color:white;
+  font-size:30px;
+  margin:6px;
+  margin-bottom:60px;
+  margin-top:60px;
+  
+  }
+  .epistle{
+  text-align:center;
+  color:white;
+  font-size:20px;
+  margin:6px 30px;
+  }
+  .signup{
+    width:70px;
+    color:white;
+    background-color:red;
+    padding:5px 0px 0px 11px;
+  
+  }
+  .header__image{
+  display: flex;
+  flex-direction: "row";
+  justify-content:"space-evenly";
+  height: 70px;
+  width:100%;
+  
+  
+  }
+  .soundclound{
+  width:100%;
+  color:white;
+  font-size:30px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding:11px 0px 0px 20px;
+  }
+  .header__action{
+    color:white;
+  display: flex;
+  justify-content:"space-between";
+  
+  
+  }
+  .header__body{
+  background-image:url('https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg');
+  background-size:cover;
+  background-position:top bottom;
+  width:100% ;
+  font-size:20px;
+  min-height: 500px;
+  background-repeat:no-repeat;
+  
+  
+  }
+  .center__content{
+    justify-content: "center";
+    justify-items: "center";
+    align-items: justify;
+    display:"flex";
+    flex-direction: column;
+  }
+  .search{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+  }
+  .search__upload{
+    background-color:red;
+    border-radius: 4px;
+    padding: 6px;
+    margin: 6px;
+    color:#fff;
+    width:150px
+  
+  }
+  .search__input{
+    width:82%;
+    background-color:rgb(233, 229, 229);
+    border:0px solid blue;
+    border-radius:4px;
+    margin: 6px;
+    ;
+  
+  }
+  .or{
+    font-size:20px;
+    margin: 6px;
+  
+  }
+  .image__container{
+    display: flex;
+  }
+  .card__image{
+    margin:2px;
+    flex:1
+  }
+  .heariswhar{
+  text-align: center;
+  font-size:30px;
+  }
+  
