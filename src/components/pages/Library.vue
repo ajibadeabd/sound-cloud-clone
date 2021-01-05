@@ -90,6 +90,7 @@ li{
 .action{
     display:flex;
     justify-content: space-between;
+    justify-content: space-between;
     border-Bottom:1px solid rgb(197, 191, 191);
     width:70%;
 }
