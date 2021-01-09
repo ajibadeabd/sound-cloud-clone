@@ -4,6 +4,7 @@ import Upload from '../components/pages/upload'
 
 import Library from '../components/pages/Library'
 import Home from '../components/pages/Header'
+import Discover from '../components/pages/Discover.vue'
 import Album from '../components/you/album.vue'
 import Following from '../components/you/following'
 import Likes from '../components/you/likes'
@@ -14,6 +15,7 @@ import Playlist from '../components/you/playlist'
 const routes=[
     {path:"/",name:"Home",component:Home},
     {path:"/upload",name:"Upload",component:Upload},
+    {path:"/discover",name:"Discover",component:Discover},
     { path:"/you/library",name:"Library", component: Library,
       children: [
         {path: 'likes',component: Likes},

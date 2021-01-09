@@ -1,24 +1,18 @@
 <template>
     
-<div class="image_con"
-v-bind:class="{ s:circle }"
->
+<div class="image_con" v-bind:class="{ s:circle }">
 
+<div class="image__rapper">
 
 <img :src=src 
 v-bind:class="{ circle:circle }"
 />
+</div>
 
-<div class="card__description">
+  <div class="card__description">
 {{songlink}}
 <br>
-<div 
-v-bind:class="{ c:circle }"
-
->
-{{artist}}
-
-</div>
+<div v-bind:class="{ c:circle }">{{artist}}</div>
 
   </div>
 </div>
@@ -37,9 +31,16 @@ export default {
 }
 </script>
 <style scoped>
+.image__rapper{
+  width: 100%;
+  height:  150px;
+    padding:0px;
+  margin:0px;
+  background-color: red;
+}
 img{
-  width:98%;
-  height:95%;
+  width:100%;
+  height:100%;
 }
 .circle{
   border-radius: 50%;
@@ -52,17 +53,14 @@ img{
 
 }
 .card__description{
-  height: 5%;
-  width:80%;
+   width: 150px;
+  height:  50px;
+
 }
 .image_con{
-  margin-bottom:26px;
-  display:flex;
-  height:200px;
-  flex-direction:column;
-  justify-items:center;
-  text-align:justify; 
-  width:180px; 
-
+  background-color: rgb(221, 212, 212);
+  border-radius: 3px;
+  padding:11px;
+  margin-top:4px;
 }
 </style>

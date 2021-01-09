@@ -1,31 +1,32 @@
 <template>
     <div >
-        <!-- <h4>
-            Recently played:
-        </h4>
+    <div >
+        <h1>
+            Recently played
+        </h1>
 
-    <div class="image__container">
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-    </div> -->
-    <div class="image__container">
+    <div class="image__c">
 
-<!-- <Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/> -->
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<!-- <Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/> -->
+<div class="each">
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+
+
+
     </div>
-
-    rfgr4
+    </div>
     </div>
 </template>
 
@@ -48,26 +49,14 @@ export default {
 
 
 <style scoped>
-div{
-    padding: 0px;
-    margin: 0px;
-}
-.image__container{
-  display: flex;
-  /* justify-content: center; */
-  
-  align-items: center;
-  align-content: center;
+.image__c{
+ display:flex;
   flex-wrap: wrap;
-  z-index: 1;
-  /* border:5px solid black; */
-  margin-top:10px ;
-  padding-top:10px ;
+  justify-content: space-evenly;
 
 }
-h4{
-    margin-top:10px;
-    font-size: 30px;
+.each{
+  /* margin:7px; */
+  width:200px;
 }
-
 </style>

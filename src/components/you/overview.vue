@@ -5,13 +5,26 @@
             Recently played
         </h1>
 
-    <div class="image__container">
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
-<Image artist='wizzy' songlink='link to song' src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg"/>
+    <div class="image__c">
+
+<div class="each">
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+
+
+
     </div>
     </div>
     </div>
@@ -36,12 +49,14 @@ export default {
 
 
 <style scoped>
-.image__container{
-  display: flex;
+.image__c{
+ display:flex;
   flex-wrap: wrap;
-  z-index: 1;
-  margin:10px 5px;
-  padding-top:10px ;
+  justify-content: space-evenly;
 
+}
+.each{
+  /* margin:7px; */
+  width:200px;
 }
 </style>

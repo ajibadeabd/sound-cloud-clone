@@ -38,14 +38,51 @@ upload your own</div>
 <div class="heariswhar">
 hear is what is trendin in sound clound comunity
 </div>
-<div class="image__container">
+<div class="home_image">
 
+<!-- <Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
 <Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
 <Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
-<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
-<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
-<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
-<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+<Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/> -->
+<!-- <Image v-bind:artist="'devido'" v-bind:songlink="'link to song'" v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/> -->
+<div class="each">
+
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+
+<div class="each">
+
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+<div class="each">
+
+<Image v-bind:artist="'devido'" 
+v-bind:songlink="'link to song'"
+ v-bind:src="'https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a-3bb2d420.jpg'"/>
+</div>
+
 <!-- <Image />
 <Image />
 <Image />
@@ -95,7 +132,10 @@ export default {
 }
 </script>
 <style scoped >
-
+.each{
+  /* margin:7px; */
+  width:200px;
+}
 .login_forma{
   color:white;
   background-color:white;
@@ -124,14 +164,7 @@ width:300px;
   position:fixed
 
 }
-.image_con{
-  display:flex;
-  flex-direction:column;
-  justify-items:center;
-  text-align:justify; 
-  width:200px; 
 
-}
 .button ,.explore{
   padding:6px;
   background-color: red;
@@ -150,11 +183,16 @@ border: 2px solid white ;
 .explore>a,.button>a{
   color:white;
 }
-.image__container{
-  display: flex;
+.home_image{
+  display:flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-items: center;
+  align-self: center; */
+
+  /* display: flex;
   z-index: 1;
-  margin:0px 5px;
+  margin:0px 5px; */
 
 }
 /*
