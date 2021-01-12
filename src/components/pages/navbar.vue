@@ -15,11 +15,14 @@ HOME
 
 </div>
 <div class="nav__actions">
-<a href="/">STREAM</a>
+<router-link to='/you/library/overview'>
+ STREAM
+ </router-link>
 </div>
 <div class="nav__actions">
-<a href="/you/library/overview">LIBRARY</a>
-
+<router-link to='/you/library/overview'>
+ LIBRARY
+ </router-link>
 
 </div>
     </div>
@@ -37,25 +40,42 @@ class='nav__search'
  <div class="avatar">
  A
  </div>
- <div class="userName">
+ <div  @click="viewprofile" class="userName">
  Abdullah  </div>
   <span class=" option material-icons">
 keyboard_arrow_down
 </span> 
 <div class="notification">
- <span class="  material-icons">
+ <span  @click="viewmessage"  class="  material-icons">
 message
 </span> 
- <span class="  material-icons">
+ <span  @click="viewnotifications" class="  material-icons">
 notification_important
 </span> 
- <span class=" material-icons">
+ <span @click="viewmore" class=" material-icons">
 more_vert
 </span> 
 </div>
 
- <div class="profile__dropdown">
- ltgj4ltkr
+ <div v-if="profile==='viewprofile'" class="profile__dropdown">
+
+     <div class="user__profile">profile</div>
+     <div class="user__profile">profile</div>
+
+     <div class="user__profile">profile</div>
+ </div>
+ <div v-if="message==='viewmessage'" class="profile__dropdown1">
+
+     <div class="user__profile">message</div>
+ </div>
+ 
+ <div v-if="notifications==='viewnotifications'" class="profile__dropdown2">
+
+     <div class="user__profile">notifications</div>
+ </div>
+ <div v-if="more==='viewmore'" class="profile__dropdown2">
+
+     <div class="user__profile">is comming</div>
  </div>
     </div>
 
@@ -65,8 +85,48 @@ more_vert
 export default {
     data(){
         return{
+profile:"",
+message:"",
+notifications:"",
+more:""
+
 
         }
+    },
+    methods:{
+        viewprofile(){
+            
+            this.profile='viewprofile'
+            this.more=''
+            this.message=''
+            this.notifications=''
+
+
+            
+            },
+        viewmessage(){
+            
+            this.message='viewmessage'
+            this.profile=''
+            this.more=''
+            this.notifications=''
+            
+            },
+            viewnotifications(){
+              this.message=''
+            this.profile=''
+            this.notifications='viewnotifications'
+            this.more=''
+
+            
+            },
+            viewmore(){
+                  this.message=''
+            this.profile=''
+            this.more='viewmore'
+            this.notifications=''
+            
+            }
     }
 }
 </script>
@@ -179,15 +239,24 @@ list-style: none;
     padding:5px;
 
 }
-.profile__dropdown{
+.profile__dropdown,.profile__dropdown1,.profile__dropdown2{
     background-color: rgb(231, 220, 220);
     height:200px;
     position:fixed;
-    left:80%;
-    top:40px;
+    /* left:65% ; */
+    left:calc(70% - 75px);
+    top:50px;
     width:150px;
     border-radius:4px ;
-    display:none
+    /* display:none */
+}
+.profile__dropdown1{
+    left:calc(75% - 75px);
+
+}
+.profile__dropdown2{
+    left:calc(80% - 75px);
+
 }
 .profile__dropdown:hover{
     display:inline

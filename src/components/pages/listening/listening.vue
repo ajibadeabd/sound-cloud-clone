@@ -1,173 +1,57 @@
 <template>
-    <div class="container">
-
-
-
-<div class="left">
-<div class="charts">
-    <h2>
-        Chart:Top 50
-    </h2>
-    <p>The most played soundclound this week </p>
-    </div>             
-        <SubDiscovery class="padimage"/>
-   
-            <div class="line__through"></div>
-
-
-<!-- section 2 -->
-<div class="charts">
-    <h2>
-        Chill
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Party
-    </h2>
-    <p>popular Playlists from soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Charts:New & Hot
-    </h2>
-    <p>Up-and-coming tracks on Soundclound </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Study
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-
-<div class="charts">
-    <h2>
-        Relax
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Sleep
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Workout
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-
+<div class="listening">
+    <div class="listening__item">
+         <div class="listening__image">
+            <img src="https://a-v2.sndcdn.com/assets/images/hp_creator_image-f3d92e09.jpg" alt="">
+        </div>
+        <div class="listening__detail">
+            <div class="listening__name1">
+                itokun kwon
             </div>
+            <div class="listening__name2">
+                Lorem ipsum officiis rem? 
+            </div>  
+            <div class="listening__plrc">
+                <div class="love">
+                    <i class="material-icons">favorite</i>
+                    <div class="number">27</div>
+                </div>
+                 <div class="love">
+                    <i class="material-icons">comment</i>
+                    <div class="number">27</div>
+                </div>
+                 <div class="love">
+                    <i class="material-icons">play_arrow</i>
+                    <div class="number">27</div>
+                </div>
+                 <div class="love">
+                    <i class="material-icons">repeat</i>
+                    <div class="number">27</div>
+                </div>
+                </div> 
+                </div> 
 
-            <!-- // second part -->
-<div class="right">
-<div class="followRefresh">
-    <div class="follow">
-<i class="material-icons first-icon">people_alt</i>
-<div class="follow">who to follow</div>
-
-    </div>
-
-<div class="refresh">
-<i class="material-icons first-icon">refresh</i>
-<div class="">
-    Refresh list</div>
-</div>
     
-</div>
-<div class="line__through"></div>
-
-<!-- who to follow -->
-<Follow/>
-<Follow/>
-<Follow/>
-<Follow/>
-
-
-
-<!-- // listening history -->
-<div class="followRefresh">
-    <div class="follow">
-<!-- <i class="material-icons">listen</i> -->
-<div class="follow">listening history</div>
-
     </div>
 
-<div class="refresh">
-<div class="">
-    Refresh View All</div>
-</div>
-    
-</div>
-<div class="line__through"></div>
-
-
-<div class="listening__container">
-
-    <Listening />
-    <Listening />
-    <Listening />
-    <Listening />
-
-
-
-
-
-<div class="gomobile">
-    Go mobile
-</div>
-<div class="line__through"></div>
-
-<div class="googleapple">
-    <button class="google">
-        
-    </button>
-    <button class="apple">
-
-    </button>
-</div>
-
-<div class="legal">
-        Legal - Privacy - Cookies - Imprint - Creator Resources - Blog - Chart - Popular search
-        <br>
-        Language: English
-     
     </div>
-</div>
-            </div>
-            
+</template>
 
-
-    </div>
-</template> 
 
 <script>
-import Follow from './follow/follow'
-import Listening from './listening/listening'
-import SubDiscovery from '../pages/sundiscovery/subDiscovery'
 export default {
-components:{SubDiscovery,Follow,Listening}
+    data(){
+        return{
+
+        }
+    }
 }
 </script>
 
-<style  scoped>
+
+
+
+<style scoped>
 
 *{
     margin: 0px;

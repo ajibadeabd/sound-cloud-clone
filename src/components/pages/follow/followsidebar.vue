@@ -1,80 +1,6 @@
 <template>
-    <div class="container">
 
 
-
-<div class="left">
-<div class="charts">
-    <h2>
-        Chart:Top 50
-    </h2>
-    <p>The most played soundclound this week </p>
-    </div>             
-        <SubDiscovery class="padimage"/>
-   
-            <div class="line__through"></div>
-
-
-<!-- section 2 -->
-<div class="charts">
-    <h2>
-        Chill
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Party
-    </h2>
-    <p>popular Playlists from soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Charts:New & Hot
-    </h2>
-    <p>Up-and-coming tracks on Soundclound </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Study
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-
-<div class="charts">
-    <h2>
-        Relax
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Sleep
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-<div class="charts">
-    <h2>
-        Workout
-    </h2>
-    <p>popular Playlistsfrom soundclound community </p>
-    </div> 
-        <SubDiscovery class="padimage"/>
-<div class="line__through"></div>
-
-            </div>
 
             <!-- // second part -->
 <div class="right">
@@ -151,10 +77,6 @@
      
     </div>
 </div>
-            </div>
-            
-
-
     </div>
 </template> 
 
