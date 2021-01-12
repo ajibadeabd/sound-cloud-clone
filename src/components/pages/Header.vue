@@ -144,7 +144,7 @@ export default {
   width:300px;
   max-width:350px;
   height:300px;
-  left:30%;
+  left:cal(30%-150px);
   top:15%;
   position:fixed
 }
@@ -154,7 +154,8 @@ margin:0%;
 justify-content: center;
 width:300px;
   top:15%;
-  left:25%;
+  /* left:25%; */
+  left:calc(50% - 150px);
   padding-top:10px;
   padding-left:10px;
   padding-right:10px;
