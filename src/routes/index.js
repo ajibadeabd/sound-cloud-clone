@@ -12,9 +12,11 @@ import History from '../components/you/history'
 import Station from '../components/you/station'
 import Overview from '../components/you/overview'
 import Playlist from '../components/you/playlist'
+import Stream from '../components/pages/stream.vue'
 const routes=[
     {path:"/",name:"Home",component:Home},
     {path:"/upload",name:"Upload",component:Upload},
+    {path:"/stream",name:"Stream",component:Stream},
     {path:"/discover",name:"Discover",component:Discover},
     { path:"/you/library",name:"Library", component: Library,
       children: [

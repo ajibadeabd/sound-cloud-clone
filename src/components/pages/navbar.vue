@@ -15,7 +15,7 @@ HOME
 
 </div>
 <div class="nav__actions">
-<router-link to='/you/library/overview'>
+<router-link to='/stream'>
  STREAM
  </router-link>
 </div>

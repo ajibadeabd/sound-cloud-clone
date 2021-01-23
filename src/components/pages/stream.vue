@@ -161,9 +161,8 @@
 <script>
 import Follow from './follow/follow'
 // import Followsidebar from '../pages'
-
 import Listening from './listening/listening'
-import SubDiscovery from './sundiscovery/subDiscovery'
+import SubDiscovery from '../pages/sundiscovery/subDiscovery'
 export default {
 components:{SubDiscovery,Follow,Listening}
 }
